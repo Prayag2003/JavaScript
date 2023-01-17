@@ -1,7 +1,6 @@
 var name;
 
-function abc()
-{
+function abc() {
     console.log("Hello");
 }
 
@@ -13,14 +12,14 @@ abc();
 // execution context
 // --> run a block of code or functions
 
-// Execution contexts keep on stacking on the global context 
+// Execution contexts keep on stacking on the global context
 
 //  TODO:
-// -------------- CONSISTS OF 3 MAIN PARTS 
+// -------------- CONSISTS OF 3 MAIN PARTS
 
 // 1 ) VARIABLE Object
 // 2 ) SCOPE CHAINING
-// 3 ) THIS 
+// 3 ) THIS
 
 
 //// TODO: I M P   R U L E S
