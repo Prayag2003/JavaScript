@@ -1,7 +1,7 @@
 // Hoisting is JavaScript's default behavior of moving declarations to the top.
 tip("20");
-function tip(a) {
-    var bill = parseInt(a);
+function tip(b) {
+    var bill = parseInt(b);
     console.log(bill + 5);
 }
 
@@ -23,8 +23,8 @@ var bigTipper = function (a) {
     var bill = parseInt(a);
     console.log(bill + 20);
 };
-bigTipper(120);
 
+bigTipper(120);
 
 // global context collects all the information and we are trying to access first and declare laer on ...
 // Hence UNDEFINED

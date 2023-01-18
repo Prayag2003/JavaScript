@@ -6,23 +6,21 @@ const pink = document.querySelector(".pink");
 
 const center = document.querySelector(".center");
 
-// console.log(window.getComputedStyle(red).backgroundColor);
-
-const getBGColor = (selectedElement) => {
-  return window.getComputedStyle(selectedElement).backgroundColor;
-};
+const getBGColor = (element) => {
+  return window.getComputedStyle(element).backgroundColor;
+}
 
 // var color = getBGColor(pink);
 
 // pink.addEventListener("mouseenter", () => {
 //   center.style.background = color;
 // });
-const magicColorChanger = (element, color) => {
-  return element.addEventListener("mouseenter", () => {
-    center.style.background = color;
-  });
-};
 
+const magicColorChanger = (element, color) => {
+    return element.addEventListener("mouseenter", () => {
+      center.style.background = color;
+    })
+}
 magicColorChanger(red, getBGColor(red));
 magicColorChanger(cyan, getBGColor(cyan));
 magicColorChanger(violet, getBGColor(violet));

@@ -1,5 +1,4 @@
-var name;
-
+console.log(name);
 function abc() {
     console.log("Hello");
 }
@@ -7,7 +6,7 @@ function abc() {
 // Global context collects all the information of the functions and variables (  E V E R Y T H I N G )
 
 // Window Object tied majorly with the browser....
-
+var name;
 abc();
 // execution context
 // --> run a block of code or functions

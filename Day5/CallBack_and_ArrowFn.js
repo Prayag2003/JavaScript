@@ -26,11 +26,11 @@ console.log(res2);
 
 
 // CALLBACK Functions
-var ans = [2,4,6,8].every( (e) => {
-    return e%2===0;
-} );
+var ans = [2, 4, 6, 8].every((e) => {
+    return e % 2 === 0;
+});
 console.log(ans);
 
 // () => ()  --> when not using return keyword
-var ans2 = [2,4,6,8,10].every( (e) => (e%2===0) );
+var ans2 = [2, 4, 6, 8, 10].every((e) => (e % 2 === 0));
 console.log(ans2);

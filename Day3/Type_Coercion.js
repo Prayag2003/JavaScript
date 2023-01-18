@@ -23,14 +23,23 @@ console.log(2 + 2);
 // TYPE COERCION :-  js doesn't know how to add a string and number  , so it assumes both as strings
 // JS assumes a lot of things on its own and hence tricky languague...
 
-
+// concatenation of string and number
 console.log(2 + "2");
-console.log("2" + "2");
+console.log("2tjuyki" + "2");
 console.log("2" + 2);
 
 user = "2";
-if (2 == user) {
+
+if (3 == user) {
     console.log("Its true");
+}
+if ( "2"=== user)
+{
+    console.log("true");
+}
+if( 2 === "2")
+{
+    console.log("False");
 }
 //  == loosely holds , that is independent of the data type 
 

@@ -26,5 +26,5 @@
 console.log("This is my first JS Code");
 console.error("This is an error");
 console.warn("This is a warning");
-console.clear();
+// console.clear();
 console.table({'Prayag':100 , 'Bhatt' : 200});
