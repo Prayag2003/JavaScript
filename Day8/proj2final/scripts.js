@@ -17,9 +17,9 @@ const getBGColor = (element) => {
 // });
 
 const magicColorChanger = (element, color) => {
-    return element.addEventListener("mouseenter", () => {
-      center.style.background = color;
-    })
+  return element.addEventListener("mouseenter", () => {
+    center.style.background = color;
+  })
 }
 magicColorChanger(red, getBGColor(red));
 magicColorChanger(cyan, getBGColor(cyan));
