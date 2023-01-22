@@ -1,3 +1,5 @@
+// Curring :- 
+// It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence. 
 function init() {
     var firstName = "Prayag";
     console.log("Inside INIT");
