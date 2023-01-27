@@ -103,8 +103,7 @@ button.addEventListener("click", () => {
     generateLIST();
 })
 
-button2.addEventListener("click" , ()=>
-{
+button2.addEventListener("click", () => {
     courses.sort(sortDescend);
     generateLIST();
 })
